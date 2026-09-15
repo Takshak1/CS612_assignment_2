@@ -1,0 +1,21 @@
+CS612 Bomb Lab
+
+You have 6 phases with which to blow yourself up. Have a nice day!
+
+Files:
+  bomb          The executable binary bomb.
+  bomb.c        Source for the bomb's main routine. We are not giving you
+                the source for phase_1 through phase_6 -- that's the part
+                you have to reverse-engineer from the disassembly.
+  cs612bomb.md  The lab instructions. Read this first.
+
+Run it with:
+  ./bomb                              (reads phase input from stdin, one line per phase)
+  ./bomb <rollnumber>_answers.txt     (reads from the file until EOF, then switches to stdin)
+
+Submission requires TWO files, both prefixed with your roll number,
+e.g. 21110123_answers.txt and 21110123_report.md -- the answers file,
+and a short report describing how you solved (or attempted) each
+phase. See cs612bomb.md sections 6-7 for details.
+
+Good luck, and welcome to the bomb squad!
