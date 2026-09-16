@@ -3,3 +3,4 @@ Segfaults build character
 0 7
 3 5
 20 3
+0 5 7 4 2 9
